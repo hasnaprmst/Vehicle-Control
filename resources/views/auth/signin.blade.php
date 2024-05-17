@@ -1,9 +1,9 @@
 <x-guest-layout>
     <div class="container position-sticky z-index-sticky top-0">
         <div class="row">
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <x-guest.sidenav-guest />
-            </div>
+            </div> -->
         </div>
     </div>
     <main class="main-content  mt-0">
@@ -57,12 +57,12 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                                <!-- <div class="card-footer text-center pt-0 px-lg-2 px-1">
                                     <p class="mb-4 text-xs mx-auto">
                                         Don't have an account?
                                         <a href="{{ route('sign-up') }}" class="text-dark font-weight-bold">Sign up</a>
                                     </p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -71,9 +71,8 @@
                                     style="background-image:url('../assets/img/image-sign-in.jpg')">
                                     <div
                                         class="blur mt-12 p-4 text-center border border-white border-radius-md position-absolute fixed-bottom m-4">
-                                        <h2 class="mt-3 text-dark font-weight-bold">Enter our global community of
-                                            developers.</h2>
-                                        <h6 class="text-dark text-sm mt-5">Copyright © 2024 Vehicle Controller
+                                        <h2 class="mt-3 text-dark font-weight-bold">Vehicle Control</h2>
+                                        <h6 class="text-dark text-sm mt-5">Copyright © 2024 
                                             by Creative Tim.</h6>
                                     </div>
                                 </div>
